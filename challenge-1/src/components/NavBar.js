@@ -1,13 +1,13 @@
 export const NavBar = () => {
  return (
-     <nav className={"navbar navbar-light"}>
-         <div className={"container-fluid mx-1"}>
-             <a className={"nav-link active"} href={"#"}>Home</a>
-             <a className={"nav-link"} href={"#about-me"}>About Me</a>
-             <a className={"nav-link"} href={"#projects"}>Projects</a>
-             <a className={"nav-link"} href={"#contact-me"}>Contact Me</a>
+     <nav className={"navbar navbar-light row justify-content-center"}>
+         <div className={"container col-auto"}>
+             {/* eslint-disable-next-line */}
+             <a className={"nav-item nav-link active px-4"} href={"#"}>Home</a>
+             <a className={"nav-item nav-link px-4"} href={"#about-me"}>About Me</a>
+             <a className={"nav-item nav-link px-4"} href={"#projects"}>Projects</a>
+             <a className={"nav-item nav-link px-4"} href={"#contact-me"}>Contact Me</a>
          </div>
      </nav>
  );
- // TODO: fix horrific width of nav bar, but get all the content done first.
 }

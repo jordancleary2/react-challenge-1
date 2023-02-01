@@ -1,0 +1,11 @@
+.profile-photo {
+    max-width: 150px;
+}
+
+.side-info-panel {
+    padding-left: 30px;
+    padding-top: 1.5em;
+    display: inline-block;
+    vertical-align: top;
+    width: auto;
+}
