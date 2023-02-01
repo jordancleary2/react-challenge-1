@@ -3,6 +3,7 @@ import "./AboutMe.css"
 export const AboutMe = () => {
     return (
         <section className={"row justify-content-center"} id={"about-me"}>
+            <h2>About Me</h2>
             <div className={"col-auto"}>
                 <img src={"me.jpeg"} alt={"Photograph of self"} className={"profile-photo rounded-circle"}/>
                 <div className={"side-info-panel"}>
