@@ -18,7 +18,6 @@ export const AboutMe = () => {
                         </ul>
                     </div>
                 </div>
-
             </div>
         </section>
     );
