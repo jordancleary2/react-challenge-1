@@ -1,6 +1,7 @@
 import {PortfolioHeader} from "./components/PortfolioHeader";
 import {AboutMe} from "./components/AboutMe";
 import {Projects} from "./components/Projects";
+import {PortfolioFooter} from "./components/PortfolioFooter";
 
 export const App = () => {
   return (
@@ -8,6 +9,7 @@ export const App = () => {
         <PortfolioHeader />
         <AboutMe />
         <Projects />
+        <PortfolioFooter />
     </div>
   );
 }

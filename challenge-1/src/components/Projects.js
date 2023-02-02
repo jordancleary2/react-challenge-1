@@ -7,7 +7,7 @@ export const Projects = () => {
             {projects.length === 0 ?
                 <p>I have no projects :(</p> :
                 projects.map((project) => {
-                    return (<ProjectCard projectInfo={project} id={"proj" + project.id} />)
+                    return (<ProjectCard projectInfo={project} key={"proj" + project.id} />)
                 })
             }
         </section>
