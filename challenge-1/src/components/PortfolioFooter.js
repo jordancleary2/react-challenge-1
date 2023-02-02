@@ -3,7 +3,7 @@ import "./PortfolioFooter.css";
 export const PortfolioFooter = () => {
     return(
         <footer id={"contact-me"}>
-            <h2>Contact Me</h2>
+            <h2 className={"display-6"}>Contact Me</h2>
             <p>
                 <span className={"contact-option"}>
                     <i className="fa-brands fa-linkedin ps-1"></i><a className={"link-dark ps-1 pe-2"} href={"https://linkedin.com/in/jordancleary"}>LinkedIn</a>
